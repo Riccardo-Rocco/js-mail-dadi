@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controllo Accesso</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container mt-5 py-3 bg-white">
+        <h1 class="text-dark">Controllo Accesso</h1>
+        <div class="row mt-4">
+            <div class="col-12">
+                <label for="email" class="form-label">Inserisci la tua email:</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="col-12 text-center">
+                <button onclick="controllaAccesso()" class="btn btn-primary mt-3">Verifica</button>
+            </div>
+        </div>
+        <p id="messaggio" class="mt-4"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(25, 137, 0);
+}
+
+.dado {
+   
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 100px;
+    line-height: 100px;
+}

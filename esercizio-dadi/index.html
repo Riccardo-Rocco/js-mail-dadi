@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gioco dei Dadi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5 py-3 bg-white">
+        <h1 class="text-dark">Sfida la fortuna</h1>
+        <div class="row mt-4">
+            <div class="col-6">
+                <h2>Player1</h2>
+                <div id="dadoPlayer1" class="dado"></div>
+            </div>
+            <div class="col-6">
+                <h2>Computer</h2>
+                <div id="dadoComputer" class="dado"></div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12">
+                <p id="risultato" class="h3"></p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12">
+                <button onclick="gioca()" class="btn btn-danger">Gioca</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <h2 class="text-dark">Punteggio</h2>
+        <div class="row mt-4">
+            <div class="col-6">
+                <p>Giocatore: <span id="punteggioPlayer1">0</span></p>
+            </div>
+            <div class="col-6">
+                <p>Computer: <span id="punteggioComputer">0</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
